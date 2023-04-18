@@ -1,0 +1,50 @@
+AULA 01 .................................................................................................................
+
+O que é DOM? DOM significa Document Object Model e é uma interface de programação de aplicações (API) para documentos HTML e XML. 
+    Em JavaScript, o DOM é uma representação da página web carregada no navegador, que permite a manipulação dinâmica da estrutura, 
+    conteúdo e estilo da página.
+
+- Métodos para selecionar elementos no HTML
+
+    document.getElementByID(id) - Selecionar um elemento pelo ID.
+    document.getElementsByTagName(name) - Selecionar um elemento pelo nome.
+    document.getElementsByClassName(name) - Selecionar um elemento pelo nome da classe.
+
+- Propriedades e métodos para alterar elementos no HTML
+    
+    element.innerHTML - Esta propriedade obtém ou altera qualquer elemento no HTML, inclusive tags.
+    element.innerText - Esta propriedade permite inserir textos no HTML.
+    element.attribute - Esta propriedade altera o valor de um elemento HTML
+    element.setAttribute(atributo, valor) - Este método altera o valor de um atributo de um elemento HTML.
+
+- Adicionando e excluindo elementos
+    
+    document.write() - Escreve no fluxo de saída do HTML.
+    document.appendChild() - Adiciona um elemento HTML.
+    document.removeChild() - Remove um elemento HTML.
+    document.replaceChild() - Substitui um elemento HTML.
+    document.createElement() - Cria um elemento HTML.
+
+É convenção salvar a página de JS como main.JS
+
+AULA 02 .................................................................................................................
+
+para linkar um arquivo JS no html: <script src="js/main.js"></script>
+
+Para evitar problemas, coloca-se a tag script no ultimo lugar possível ho html: logo acima do fim da </body>
+
+AULA 03 .................................................................................................................
+
+evento.target: passa a informação de onde o clique aconteceu
+evento.target.parentNode: seleciona a classe pai do elemento clicado
+evento.target.textContent: busca o texto escrito dentro do target clicado
+Atalho: CTRL + D => seleciona todas as pelavras iguais
+
+Data atributs: cria uma propriedade do tipo data para um elemento html
+    ex: data-controle="+"  (não é necessário atribuir um valor ao data, basta colocar data-algo)
+    é usado para atribuir um valor para o elemento html e, caso o elemento em si se altere, não perderá a ancoragem
+
+AULA 05 .................................................................................................................
+
+Vercel.com : site para afzer deploy (publicação)
+
